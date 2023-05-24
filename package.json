@@ -1,0 +1,24 @@
+{
+  "name": "tulisaja-restapi",
+  "version": "1.0.0",
+  "description": "rest api menggunakan express.js\\",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rizviroshan10/tulisaja-restapi.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb"
+  ],
+  "author": "Rizvi Roshan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rizviroshan10/tulisaja-restapi/issues"
+  },
+  "homepage": "https://github.com/rizviroshan10/tulisaja-restapi#readme"
+}

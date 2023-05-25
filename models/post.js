@@ -1,4 +1,4 @@
-const monngoose = require('mongoose')
+const mongoose = require('mongoose')
 
 const PostSchema = mongoose.Schema({
     content: {
@@ -9,9 +9,9 @@ const PostSchema = mongoose.Schema({
         type: String,
         required: true
     },
-    created_date:{
+    created_date: {
         type: Date,
-        default: Date,now
+        default: Date.now
     },
     modified_date: {
         type: Date,
@@ -23,4 +23,4 @@ const PostSchema = mongoose.Schema({
     },
 })
 
-module.exports = monngoose.model('Post', PostSchema)
+module.exports = mongoose.model('Post', PostSchema,'post')
